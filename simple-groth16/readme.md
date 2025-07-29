@@ -5,6 +5,8 @@ I demo a very simple zk-SNARK groth16 following the excellent [post](https://med
 -   [The KZG/Kate Polynomial Commitment Scheme](https://risencrypto.github.io/Kate/): This post introduces KZG Polynomial Commitment Scheme.
 -   [Groth16 zkSNARK](https://risencrypto.github.io/Groth16/): This post introduces Groth16. In my opinion, some demo codes are difficult to understand, but the mathematical explanation is very good (In my opinion, i think the explanation in this post is more detail in that [post](https://medium.com/coinmonks/under-the-hood-of-zksnark-groth16-protocol-2843b0d1558b)).
 
+I recommend you should read this [post](https://risencrypto.github.io/Groth16/) before reading this [post](https://medium.com/coinmonks/under-the-hood-of-zksnark-groth16-protocol-2843b0d1558b).
+
 ### Usage
 
 I use python virtual environment, to activate it, just run

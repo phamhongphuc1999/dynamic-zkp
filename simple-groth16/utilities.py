@@ -48,3 +48,10 @@ def print_poly(name, poly_list):
     print(f'\n{name} polynomials:')
     for i in range(0, len(poly_list)):
         print(f'{name}_{i} = {poly_list[i]}')
+
+def split_poly(poly, FP):
+    coef = [int(c) for c in poly.coefficients()]
+    p1 = coef[-2:]
+    p2 = coef[:-2] + [0] * 2
+
+    return galois.Poly(p1, field=FP), galois.Poly(p2, field=FP)
