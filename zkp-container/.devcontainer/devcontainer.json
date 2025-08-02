@@ -1,6 +1,6 @@
 {
     "name": "common-node",
-    "image": "mcr.microsoft.com/devcontainers/javascript-node",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "customizations": {
         "vscode": {
             "settings": {},
