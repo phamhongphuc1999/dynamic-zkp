@@ -1,0 +1,10 @@
+{
+    "name": "common-node",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": ["iden3.circom"]
+        }
+    }
+}
