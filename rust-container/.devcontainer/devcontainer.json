@@ -1,0 +1,10 @@
+{
+    "name": "common-node",
+    "image": "mcr.microsoft.com/devcontainers/rust",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": []
+        }
+    }
+}
